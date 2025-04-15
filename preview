@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Rutina Gamer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #1c1c1c;
+      color: #fff;
+      margin: 0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #00ffc8;
+    }
+    .routine {
+      max-width: 600px;
+      margin: auto;
+      background: #2b2b2b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+    }
+    .step {
+      background: #383838;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 8px;
+      border-left: 4px solid #00ffc8;
+    }
+    .step h3 {
+      margin-top: 0;
+      color: #00ffc8;
+    }
+    .timer-btn {
+      background: #00ffc8;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      color: #1c1c1c;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎯 Mini Rutina Gamer</h1>
+  <div class="routine">
+    <div class="step">
+      <h3>1. Mindfulness Gamer (3 min)</h3>
+      <p>Respirá profundo, cerrá los ojos, y visualizá tu partida perfecta. Calma la mente antes de la acción.</p>
+    </div>
+    <div class="step">
+      <h3>2. Ejercicio Físico Rápido (5 min)</h3>
+      <p>Hacé 3 series de 10 flexiones y 10 abdominales. Activá tu cuerpo y sentí el foco fluir.</p>
+    </div>
+    <div class="step">
+      <h3>3. Entrenamiento Puntería (15 min)</h3>
+      <p>Practicá con Kovaaks, Aim Lab o el campo de entrenamiento en Overwatch 2. Concentrate en precisión.</p>
+    </div>
+    <div class="step">
+      <h3>4. Jugar con Mentalidad Zen</h3>
+      <p>Entrá al game con actitud positiva. Recordá: cada partida es aprendizaje, no obsesión.</p>
+    </div>
+    <button class="timer-btn" onclick="alert('Recordá hidratarte 💧 y estirar un poco entre partidas.')">
+      Notita Gamer 🧠
+    </button>
+  </div>
+</body>
+</html>
